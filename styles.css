@@ -61,6 +61,16 @@
     content: 'SEC';
 }
 
+#ampm {
+    font-size: 36px;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateX(10px) translateY(-50%);
+    color: rgba(247, 246, 247, 0.7);
+    font-weight: bold;
+}
+
 .container::before {
     content: '';
     width: 180px;
